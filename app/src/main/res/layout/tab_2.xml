@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout
+    android:id="@+id/fabtoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:showDuration="350"
+    app:hideDuration="200"
+    app:rightMargin="30dp"
+
+    app:fadeInFraction="0.2"
+    app:fabId="@+id/fabtoolbar_fab"
+    app:containerId="@+id/fabtoolbar_container"
+    app:fabToolbarId="@+id/fabtoolbar_toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@+id/tab2_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="150dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab2_wrapper" >
+
+            <TableLayout
+                android:animateLayoutChanges="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/DateCardContainer">
+
+
+            </TableLayout>
+
+        </ScrollView>
+    </TableLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fabtoolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabtoolbar_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:fabSize="mini"
+            android:src="@mipmap/cross"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fabtoolbar_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimary">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/getSpecial"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/viadeo"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="특별한 소개팅"
+                    android:id="@+id/specialText"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="11sp"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/getToday"
+                    android:src="@drawable/female96"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="오늘의 소개팅"
+                    android:id="@+id/todayText"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="11sp"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+        </TableRow>
+
+    </LinearLayout>
+
+
+
+</com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout>

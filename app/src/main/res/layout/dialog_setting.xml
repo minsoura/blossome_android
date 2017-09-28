@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff7c3"
+        android:elevation="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="#f1518c">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="SETTING"
+                                android:id="@+id/textView3"
+                                android:textStyle="bold"
+                                android:textColor="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="계정 홀딩"
+                                android:id="@+id/textView29"
+                                android:textStyle="bold|italic"
+                                android:gravity="center_horizontal"
+                                android:layout_marginLeft="20dp" />
+
+                            <TableRow
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal">
+
+                                <Switch
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/key_setting_holding"
+                                    android:checked="false"
+                                    android:showText="false"
+                                    android:textOn="ON"
+                                    android:trackTint="#f1518c"
+                                    android:splitTrack="false"
+                                    android:drawableTint="#f1518c"
+                                    android:foregroundTint="#f1518c" />
+                            </TableRow>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="계정 삭제"
+                                android:id="@+id/textView31"
+                                android:textStyle="bold|italic"
+                                android:gravity="center_horizontal"
+                                android:layout_marginLeft="20dp" />
+
+                            <TableRow
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal">
+
+                                <Switch
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/key_setting_remove"
+                                    android:checked="false"
+                                    android:showText="false"
+                                    android:textOn="ON"
+                                    android:trackTint="#f1518c"
+                                    android:splitTrack="false"
+                                    android:drawableTint="#f1518c"
+                                    android:foregroundTint="#f1518c"
+                                    android:layout_marginBottom="3dp" />
+                            </TableRow>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginBottom="10dp">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="키 사용 내역"
+                                android:id="@+id/textView32"
+                                android:textStyle="bold|italic"
+                                android:gravity="center_horizontal"
+                                android:layout_marginLeft="20dp" />
+
+                            <TableRow
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal">
+
+                                <Switch
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/key_setting_history"
+                                    android:checked="false"
+                                    android:showText="false"
+                                    android:textOn="ON"
+                                    android:trackTint="#f1518c"
+                                    android:splitTrack="false"
+                                    android:drawableTint="#f1518c"
+                                    android:foregroundTint="#f1518c" />
+                            </TableRow>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#f1518c"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="CANCEL"
+                                android:id="@+id/keySettingCancel"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+    </LinearLayout>
+</LinearLayout>

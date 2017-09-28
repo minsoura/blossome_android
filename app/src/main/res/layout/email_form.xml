@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#fff7c3"
+        android:elevation="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="0dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="#f1518c" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="SEND EMAIL"
+                                android:id="@+id/textView41"
+                                android:textStyle="bold"
+                                android:textColor="#ffffff" />
+                        </TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="TITLE"
+                            android:id="@+id/textView38"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="5dp" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/emailTitle"
+                                android:backgroundTint="@color/colorAccent"
+                                android:layout_marginRight="20dp"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+                        </TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/ListMEssagTitle"
+                            android:id="@+id/textView3"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/emailMessage"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="0dp"
+                                android:inputType="textMultiLine"
+                                android:backgroundTint="@color/colorAccent"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:layout_marginBottom="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="@string/dialogSEND"
+                                android:id="@+id/emailSend"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="30dp" />
+
+                        </TableRow>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+    </LinearLayout>
+</LinearLayout>

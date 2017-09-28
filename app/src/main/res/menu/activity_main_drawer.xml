@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:title="@string/nav_header_profile">
+            <menu>
+
+        <item
+            android:id="@+id/update_Profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_header_profile_update" />
+                <item
+                    android:id="@+id/DatingPreference"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/nav_heaher_dating_prefer" />
+            </menu>
+        </item>
+    <item android:title="@string/nav_header_setting">
+        <menu>
+
+            <item
+                android:id="@+id/app_setting"
+                android:icon="@drawable/setting"
+                android:title="@string/nav_header_app_setting" />
+            <item
+                android:id="@+id/nav_manual"
+                android:icon="@drawable/ic_manual"
+                android:title="설명서"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/nav_header_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_header_share"
+                />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="@string/nav_header_email" />
+
+           </menu>
+    </item>
+    <item android:title="Documents">
+        <menu>
+
+
+    <item
+        android:id="@+id/nav_notices"
+        android:icon="@drawable/ic_license"
+        android:title="라이센스/license"/>
+</menu>
+    </item>
+
+</menu>

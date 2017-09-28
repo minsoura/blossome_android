@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/minsoura/findit/WelcomeScreen.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/minsoura/findit/WelcomeScreenFragment.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_item_selected_drawable.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/chat_icon.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_account_multiple_white_48dp.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_action_next.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_checkbox_blank_circle_white_18dp.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_laptop_white_36dp.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_phone_white_48dp.png" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selectable_item_background_general.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_screen1.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_screen2.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_screen3.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_screen4.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/welcome_layout.xml" charset="x-windows-949" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frag2_title">Search</string>
+    <string name="frag2_desc">하루 한번 TODAY 또는 SPECIAL 검색 기능을 통해 소개 카드를 받을 수 있어요!</string>
+    <string name="frag3_tite">Special Search</string>
+    <string name="frag3_desc">출신 학교, 키, 나이 등 원하는 조건의 이성을 검색 해보세요!</string>
+    <string name="frag4_title">Get</string>
+    <string name="frag4_desc">하루 두명, 소개 카드를 받을 수 있어요. 상대방의 매력을 평가하면 열쇠를 받을 수 있어요!</string>
+    <string name="frag5_title">Message</string>
+    <string name="frag5_desc">상대방에게 메세지를 보내보세요. 상대방이 수락한다면 연결이 됩니다.!</string>
+    <string name="frag6_desc">연결된 이성의 번호를 얻으려면 주어진 열쇠를 통해 락을 풀면 됩니다!</string>
+</resources>

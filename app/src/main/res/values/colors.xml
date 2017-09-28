@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_selected">#FF4081</color>
+    <color name="transparent_bg">#fff</color>
+    <color name="colorPrimary">#373737</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Black">#FF000000</color>
+    <color name="colorMiddle">#414040</color>
+    <color name="primary_material_light">#ffbdbdbd</color>
+</resources>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">BLOSSOM</string>
+    <string name="lableOne">PROFILE</string>
+    <string name="hello">Choose Images</string>
+    <string name="hello2">View Images</string>
+    <string name="hello3">Upload Images</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cell">Cell</string>
+    <string name="prompt_hobby">Hobby</string>
+    <string name="prompt_height">Height</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_id">ID</string>
+    <string name="prompt_age">Age</string>
+    <string name="prompt_job">Job</string>
+    <string name="prompt_password2">PW-Confirm</string>
+
+
+
+    <string name="action_sign_in">Log In</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_duplicate_ID">동일한 ID가 존재 합니다.</string>
+    <string name="error_duplicate_Email">동일한 이메일이 존재합니다.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="info_policy">학생증 사진에서 보여지는 학교명이 명확해야 하며 성함도 가입자의 이름과 동일해야 합니다. 가입시 사용되는 학생증 사진은 관리자의 승인을 위한 용도로만 사용되며 관리자 승인후 바로 삭제됩니다.</string>
+    <string name="error_check_password">비밀번호를 확인해주세요.</string>
+    <string name="error_invalid_email">이메일 주소가 유효하지 않습니다.</string>
+    <string name="error_invalid_password">비밀번호가 짧습니다.</string>
+    <string name="error_incorrect_password">비밀번호가 옳지 않습니다.</string>
+    <string name="error_field_required">필수 입력란 입니다.</string>
+    <string name="error_age">가입 가능 나이는 20에서 50입니다.</string>
+    <string name="register">회원가입</string>
+    <string name="registerName">Name:</string>
+    <string name="registerEmail">Email:</string>
+    <string name="registerTextKorean">REGISTER HERE</string>
+    <string name="registerID">ID:</string>
+    <string name="registerPassword">Password:</string>
+    <string name="confirmPW">Confirm PW:</string>
+    <string name="accountTitle">1.계정 생성</string>
+    <string name="profileRegi">2.프로필 등록</string>
+    <string name="mainPicDes">thumbnail</string>
+    <string name="checkbox">Male</string>
+    <string name="checkbox2">Female</string>
+    <string name="userPicture">userPicture1</string>
+    <string name="userPicture2">userPicture2</string>
+    <string name="userPicture3">userPicture3</string>
+    <string name="userPicture4">userPicture4</string>
+    <string name="mainPic">thumbnail</string>
+    <string name="view_ID">NAME</string>
+    <string name="view_age">AGE</string>
+    <string name="view_job">JOB</string>
+    <string name="view_id">ID</string>
+    <string name="view_region">REGION</string>
+    <string name="view_height">HEIGHT</string>
+    <string name="view_sayHi">INTRO</string>
+    <string name="view_sayHi_hit">My favorite food is.....</string>
+    <string name="userPicture5">userPicture5</string>
+    <string name="changeString">CHANGE</string>
+    <string name="view_main_description">MAIN</string>
+    <string name="ID_CIRCLE">ID</string>
+    <string name="ListImageDesc">pendingList</string>
+    <string name="ListMainID">ID</string>
+    <string name="ListMEssagTitle">MESSAGE</string>
+    <string name="Tab3_Title1">LIKED BY/LIKING</string>
+    <string name="fromto">FROM:</string>
+    <string name="dialog">hey..</string>
+    <string name="dialogHeading">TO:</string>
+    <string name="dialogSEND">SEND</string>
+    <string name="cell_call">CALL</string>
+    <string name="cell_later">LATER</string>
+    <string name="view_uni">UNIV</string>
+    <string name="special_heading">FIND SOMEONE SPECIAL..!</string>
+    <string name="nav_header_profile">Profile</string>
+    <string name="nav_header_profile_update">프로필 업데이트</string>
+    <string name="nav_heaher_dating_prefer">데이팅 설정</string>
+    <string name="nav_header_communicate">Communicate</string>
+    <string name="nav_header_share">공유하기</string>
+    <string name="nav_header_email">이메일 문의</string>
+    <string name="nav_header_setting">Setting</string>
+    <string name="nav_header_app_setting">환경 설정</string>
+    <string name="nav_header_key_store">키 스토어</string>
+    <string name="email_title">TITLE</string>
+    <string name="kw">K\</string>
+    <string name="my_keys">KEYS:</string>
+    <string name="prompt_code">Code</string>
+    <string name="default_message">No Messages Yet...</string>
+    <string name="default_connection">No Connections Yet...</string>
+    <string name="theKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8TBVqEnxi+ty0X3SH7zY3ziQWKGZ9wARcpyfs3JDTts6g6HfaEax7mWgQFLTfjTvmCx/Wy2Aa/zHMeIBwVqlsuEJAui5iXFJS+2/cxEt4LGIjupNOJ1eXfisW7WyNYiVQkKF/kR1HWCRvruOJMfRv5yc5xYyzkjzdujJKHc0YYEnL2KXazeLGFv3riQxPx+DgVwJnr2aY9rUaL+G+Ym3Z+PvOm/2MsxYRtl26QeRu6fFIZUKyNE21Vl6OBSqcXAgJ2/z1FB6SyjVk6KnriGVHblClvhymk0bsPP3KC7qd5hIM9J8Sm0QCfiEEcd7JS/n864imc7hhlvW98ICrdOtiQIDAQAB</string>
+    <string name="frag1_title">Blossom</string>
+    <string name="frag1_desc">BLOSSOM에서 봄날을 시작해보세요!</string>
+    <string name="frag2_title">Search</string>
+    <string name="frag2_desc">하루 한번 TODAY 또는 SPECIAL 검색 기능을 통해 소개 카드를 받을 수 있어요!</string>
+    <string name="frag3_tite">Special Search</string>
+    <string name="frag3_desc">출신 학교, 키, 나이 등 원하는 조건의 이성을 검색 해보세요!</string>
+    <string name="frag4_title">Get</string>
+    <string name="frag4_desc">하루 두명, 소개 카드를 받을 수 있어요. 상대방의 매력을 평가하면 열쇠를 받을 수 있어요!</string>
+    <string name="frag5_title">Message</string>
+    <string name="frag5_desc">상대방에게 메세지를 보내보세요. 상대방이 수락한다면 연결이 됩니다.!</string>
+    <string name="frag6_title">Connect</string>
+    <string name="frag6_desc">연결된 이성의 번호를 얻으려면 주어진 열쇠를 통해 락을 풀면 됩니다!</string>
+
+
+</resources>
